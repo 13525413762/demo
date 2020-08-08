@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<meta name="author" content="borcci" />
+<meta name="keywords" content="关于柏厨,人文柏厨,中国人的品质厨房" />
+<meta name="description" content="" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" name="viewport" />
+<title>关于柏厨-人文柏厨,中国人的品质厨房</title>
+<link rel="shortcut icon" href="https://www.borcci.com:443/static/images/favicon.ico" type="image/x-icon" />
+<script>if (/*@cc_on!@*/false && document.documentMode === 10) document.documentElement.className += ' ie10';</script>
+<script>if (/*@cc_on!@*/false && document.documentMode === 11) document.documentElement.className += ' ie11';</script>
+<!-- 添加IE10+Class -->
+<link rel="stylesheet" href="https://www.borcci.com:443/static/css/front/common.css">
+<link rel="stylesheet" href="https://www.borcci.com:443/static/css/front/jquery.bxslider.css">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<!--公用文件 END-->
+
+
+<link type="text/css" rel="stylesheet" href="https://www.borcci.com:443/static/css/front/style.css" />
+</head>
+<body>
+<!-- 人文柏厨 -->
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<script type="text/javascript">
+
+function searchResult(){
+	var keyword= $("#result").val();
+	/* if(keyword.length==0){
+		return;
+	} */
+	if ($.trim($("#result").val()) == '' || $.trim($('#result').val()) == '请输入关键字') {
+		$("#result").focus();
+		alert("请输入搜索内容！");
+		return;
+	}
+	else {
+		if ($.trim($("#result").val()).length > 32) {
+			alert("最多输入32个汉字！");
+			return false;
+		}
+	}
+	window.location.href="https://www.borcci.com:443/search/tosearchResult.html?keyword="+encodeURI(encodeURI(keyword));
+}
+//切换多语言
+function setCookie(name, value)
+{
+	var argv = setCookie.arguments;
+	var argc = setCookie.arguments.length;
+	var expires = (argc > 2) ? argv[2] : null;
+	if(expires!=null&&expires!=""&&expires!=undefined)
+	{
+		var LargeExpDate = new Date ();
+		LargeExpDate.setTime(LargeExpDate.getTime() + (expires*1000*60*60*24));
+	}
+	document.cookie = name + "=" + escape(value)+((expires == null) ? "" : ("; expires=" +LargeExpDate.toGMTString()));
+	window.location.href="https://www.borcci.com:443";
+}
+
+</script>
+<script>
+var domain = document.domain;
+if(domain=='www.borcci.com'){
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?ff29e9e9374284a41db01965e70d1f1e";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+}
+</script>
+
+<div class="header cf">
+	<div class="logo cf"><a href="https://www.borcci.com:443"><img src="/uploadFiles/uploadImgs/20180109/00d555f1334a4dbc8ca7bc9cd38b8d68.png" alt=""></a></div>
+	<div class="right cf">
+		<div class="nav_btn"><span></span></div>
+		<ul class="nav cf">
+							<li><a href="https://www.borcci.com:443" class="fnt_16">首页<span></span></a>
+						</li>
+							<li><a href="https://www.borcci.com:443/channel/bb5a28fedb8d442fbe5e9720455db103.html" class="fnt_16">柏厨产品<span></span></a>
+							<dl class="cf">
+								<dd class="cf">
+										<p><a href="https://www.borcci.com:443/channel/4647624ae089474eac4641a898097bb5.html" class="fnt_16">产品中心</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/4647624ae089474eac4641a898097bb5.html" class="fnt_16">产品中心</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/f49e4acb67214fd492d270702efde2d7.html" class="fnt_16">集成家居</a></p>
+										<!--
+											<p><a href="https://www.borcci.com:443/build/tosearchResult" class="fnt_16">集成家居</a></p>
+-->
+								</dd>
+							</dl>
+						</li>
+							<li><a href="https://www.borcci.com:443/channel/4439eb833ebe4bfca9c7f8348de90e6f.html" class="fnt_16">柏厨服务<span></span></a>
+							<dl class="cf">
+								<dd class="cf">
+										<p><a href="https://www.borcci.com:443/channel/c8bee1a04eef4cd0a5829cf7f79bf10f.html" class="fnt_16">专卖店查询</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/c8bee1a04eef4cd0a5829cf7f79bf10f.html" class="fnt_16">专卖店查询</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/9254a741bf7b4f1b812dd3bbeb272989.html" class="fnt_16">防伪查询</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/9254a741bf7b4f1b812dd3bbeb272989.html" class="fnt_16">防伪查询</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/9e7d56c0361f4035b597c2ce6fe18508.html" class="fnt_16">服务体系</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/9e7d56c0361f4035b597c2ce6fe18508.html" class="fnt_16">服务体系</a></p>
+										-->
+								</dd>
+							</dl>
+						</li>
+							<li><a href="https://www.borcci.com:443/channel/d88480f3e53d44d792ddc703b8832b90.html" class="fnt_16">招商加盟<span></span></a>
+							<dl class="cf">
+								<dd class="cf">
+										<p><a href="https://www.borcci.com:443/channel/cd3723260c7d4ae28b6c1487e148d8d8.html" class="fnt_16">零售加盟</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/cd3723260c7d4ae28b6c1487e148d8d8.html" class="fnt_16">零售加盟</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/8a1f8f18d66548ba93e5e27c6f0cc38c.html" class="fnt_16">工程合作</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/8a1f8f18d66548ba93e5e27c6f0cc38c.html" class="fnt_16">工程合作</a></p>
+										-->
+								</dd>
+							</dl>
+						</li>
+							<li><a href="https://www.borcci.com:443/channel/e90dd5823ea947caa9490ac152cc7da9.html" class="fnt_16">关于柏厨<span></span></a>
+							<dl class="cf">
+								<dd class="cf">
+										<p><a href="https://www.borcci.com:443/channel/a56015a4c45141c5800a6df4ac42dd90.html" class="fnt_16">人文柏厨</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/a56015a4c45141c5800a6df4ac42dd90.html" class="fnt_16">人文柏厨</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/974eea93466447c1bd834cbef25fab98.html" class="fnt_16">发展历程</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/974eea93466447c1bd834cbef25fab98.html" class="fnt_16">发展历程</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/2685df68d7814d6185802e83e8fac330.html" class="fnt_16">荣誉资质</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/2685df68d7814d6185802e83e8fac330.html" class="fnt_16">荣誉资质</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/08f8d84f384d4f25b9843ec6178a86c0.html" class="fnt_16">生产基地</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/08f8d84f384d4f25b9843ec6178a86c0.html" class="fnt_16">生产基地</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/15f69fde817c447980385215dcfa27b5.html" class="fnt_16">社会责任</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/15f69fde817c447980385215dcfa27b5.html" class="fnt_16">社会责任</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/e949161bc1bc430086e9f5f46557841e.html" class="fnt_16">加入柏厨</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/e949161bc1bc430086e9f5f46557841e.html" class="fnt_16">加入柏厨</a></p>
+										-->
+										<p><a href="https://www.borcci.com:443/channel/b35554b11dfd4b728b5295e79c6ddb18.html" class="fnt_16">新闻资讯</a></p>
+										<!--											<p><a href="https://www.borcci.com:443/channel/b35554b11dfd4b728b5295e79c6ddb18.html" class="fnt_16">新闻资讯</a></p>
+										-->
+								</dd>
+							</dl>
+						</li>
+							<li><a href="https://www.borcci.com:443/channel/5611ff70b5f54781a15f4cd25ba87559.html" class="fnt_16">联系我们<span></span></a>
+						</li>
+		</ul>
+		<div class="nav_bg cf"></div>
+		<div class="lang cf">
+			<a href="https://www.borcci.com:443/" class='hover'>中</a>
+			<a href="http://en.borcci.com/">EN</a>
+		</div>
+		<div class="search cf">
+			<a href="javascript:;"><img src="https://www.borcci.com:443/static/images/front/search_btn.png" alt=""></a>
+			<div class="input cf">
+				<input type="text" id="result" placeholder="请输入关键词" />
+				<input type="button" value="搜索" onclick="javascript:searchResult();"/>
+			</div>
+		</div>
+	</div>
+</div>
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<div class="n_top cf">
+	<div class="crumb wrap cf">
+					<a href="https://www.borcci.com:443" class="fnt_16 spanStr1">首页</a>
+				&nbsp;>&nbsp;<a class="fnt_16" href="https://www.borcci.com:443/channel/e90dd5823ea947caa9490ac152cc7da9.html">关于柏厨</a>
+				&nbsp;>&nbsp;<span class="fnt_16 spanStr1">人文柏厨</span>
+	</div>
+</div><div class="section scrollPage0 cf">
+<div class="about_con about_con01 pt_85 cf">
+	<dl class="cf wrap pb_110">
+		
+				<dt><img src="/uploadFiles/uploadImgs/20180130/e562112eeb7445efb5e8ab6afea950b8.png" alt=""></dt>
+				<dd class="cf">
+					<h3 class="fnt_36">关于柏厨</h3>
+					<div class="p fnt_16">BORCCI 柏厨，专门从事集成厨房产品的研究、设计、生产与销售。
+2000 年， 方太董事长兼总裁茅忠群提出“集成厨房”全新概念，推动中国厨房行业实现了“厨柜-整体厨房-集成厨房”的产业升级。经过近20年的品牌积累，业务已遍布全国大中型城市。
+柏厨不断致力于为追求高品质生活的人们提供无与伦比的产品和服务。</div>
+				</dd>
+	</dl>
+</div>
+</div>
+<div class="section scrollPage1 cf" style="display: none;">
+<div class="about_con about_con02 cf">
+	<!-- 
+						<div class="edit_v_btn cf">
+					         <a href="javascript:;" class="video_button" data-video="/uploadFiles/file/20180412/6b868f3768e5487ebefbc7f794127abf.mp4" data-img="/uploadFiles/uploadImgs/20180201/67a031da14714463a234e2c907841fdf.jpg">
+						          <em>
+							        <img src="https://www.borcci.com:443/static/images/front/play_btn1.png" alt="">
+							        <p class="fnt_24">企业宣传片</p>
+						          </em>
+						          <img src="/uploadFiles/uploadImgs/20180201/67a031da14714463a234e2c907841fdf.jpg" alt="" >
+					         </a>
+						</div>
+						<div class="edit_v_video video_con cf">
+							<video width='1366' src='' type='/uploadFiles/file/20180412/6b868f3768e5487ebefbc7f794127abf.mp4' id='media' controls='controls' poster=''></video>
+						</div>
+	 -->
+</div>
+</div>
+					<div class="section scrollPage2 cf">
+		           		 <div class="about_con about_con03 cf">
+							 		<img src="/uploadFiles/uploadImgs/20180131/11cd25dff01c47c7b2e181be1ac3a1ca.jpg" alt="">
+								 	<div class="a_con03 cf">
+								 	<h3 class="fnt_30">我们的使命<em></em>为了亿万家庭的幸福
+</h3>
+						 	<div class="p fnt_16"><p style="text-align: left; text-indent: 0em;">我们要提供无与伦比的高品质产品和服务，打造健康环保有品位的生活方式，传播中华优秀传统文化，让亿万家庭享受更加美好的生活，实现幸福圆满的人生。</p></div>
+						    </div>
+						 </div>
+					 </div>
+					<div class="section scrollPage3 cf">
+		           		 <div class="about_con about_con04 cf">
+							 		<img src="/uploadFiles/uploadImgs/20180622/2b63d77833514621b74e97353a09c163.jpg" alt="">
+								 	<div class="a_con04 cf">
+								 	<h3 class="fnt_30">我们的愿景<em></em>成为中国人渴望拥有的高端厨柜品牌
+</h3>
+						 	<div class="p fnt_16"><p>致力于产品力、服务力、文化力的打造和精进，为顾客提供美善的产品和服务，将柏厨品牌打造成为极具口碑、中国人首选购买的高端厨柜品牌</p></div>
+						    </div>
+						 </div>
+					 </div>
+					<div class="section scrollPage4 cf">
+		           		 <div class="about_con about_con05 cf">
+							 		<img src="/uploadFiles/uploadImgs/20180131/73e116bd3503437fa03b751e55148b48.jpg" alt="">
+								 	<div class="a_con05 cf">
+								 	<h3 class="fnt_30">核心价值观<em></em>人品、企品、产品三品合一</h3>
+						 	<div class="p fnt_16"><p>我们坚信：作为一家追求伟大的企业，我们唯有修身心、尽本份，性命双修，德才兼备；才能积极承担责任，打造最佳雇主，实现卓越管理；才能为顾客提供高品质的产品和服务。这三者相辅相成，缺一不可。</p></div>
+						    </div>
+						 </div>
+					 </div>
+					<div class="section scrollPage5 cf">
+		           		 <div class="about_con about_con06 cf">
+							 		<img src="/uploadFiles/uploadImgs/20180131/1a50feb29aa74761b4c653f7e4e17e00.jpg" alt="">
+								 	<div class="a_con06 cf">
+								 	<h3 class="fnt_30">儒家文化<em></em>仁、义、礼、智、信、廉、耻、勤、勇、严</h3>
+						 	<div class="p fnt_16"><p>柏厨是儒家思想的践行者，在公司的管理制度、员工的行为规范方面都讲究道德教化，克己复礼。柏厨董事长把公司的儒道归结为十个字，即：仁义礼智信，廉耻勤勇严。</p></div>
+						    </div>
+						 </div>
+					 </div>
+					 <div class="section scrollPage6 cf">
+								 <div class="about_con about_con07 cf" style="background-image:url(/uploadFiles/uploadImgs/20180131/340020fb9dab4d48b22e5287a8be6786.jpg);">
+									<div class="wrap cf">
+										<div class="a_con07_01 mt_110 cf">
+											<h3 class="fnt_30">岁寒<em></em>然后知松柏之后凋也</h3>
+											<div class="p fnt_16"><p>面对时间，生命是有限的，但是大自然却对树木的生命格外的宽容。它们栉风沐雨，阅尽人间风云变化，傲视万物，柏树便是这样的长寿树种。</p><p>两亿年前，它一头扎进了地球这块土地上，经历酷暑，承受严冬，却长成高大挺拔的大树。随着历史的推进，几千年的文化传承，柏树已经深入到了民族心灵地深处，其独特的自然属性被人格化，被赋予了道德伦理的内涵，从而成为高洁品性和高尚人格的代表。</p><p>至圣先师的孔子也以松柏为师，曰：“岁寒，然后知松柏之后凋也！” 工匠祖师鲁班对它也是情有独钟，不仅因为它是“大厦之宏材”，多被用做家具、桥梁的建造，满足人们对生活的需要，同时也倡导着一种自然纯朴的生活意境。</p></div>
+										</div>
+										<div class="a_con07_02 mt_75 cf">
+											<h3 class="fnt_30">雪不能毁其志<em></em>寒不致改其性
+
+</h3>
+											<div class="p fnt_16"><p>柏厨以气节高尚的“柏”为喻，决心要将经冬不凋，临风不倒，雪不能毁其志，寒不致改其性，守志不阿的坚毅品格和精神发扬光大，也预示着“柏厨”基业常青的未来。同时，柏厨通过科学的设计，将厨房功能整合，合理规划厨房空间，配备人性化、现代化的厨房部件，从而优化整个厨房的作业流程制定出一体化的解决方案，全面超越了传统厨房的定位与功能。<br/></p></div>
+										</div>
+									</div>
+									<div class="color"></div>
+								  </div>
+					  </div>
+
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<div class="fix cf">
+	<ul>
+								<li>
+							<a href="https://weibo.com/borccikitchen" target="_blank">
+								<img src="https://www.borcci.com:443/static/images/front/fix01.png" alt="">
+							</a>
+							<p>
+								<img src="/uploadFiles/uploadImgs/20180228/e0e8b59b2c28436fad6f20e74633104e.png" alt="">
+							</p>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="https://www.borcci.com:443/static/images/front/fix02.png" alt="">
+							</a>
+							<p>
+								<img src="/uploadFiles/uploadImgs/20180228/4c07171019f340ac9029e6ab57dd682d.jpg" alt="">
+							</p>
+						</li>
+						<li>
+							<a href="https://shop108465992.taobao.com/?spm=2013.1.w14056443-21231607605.3.699255c1AnmShN" target="_blank">
+								<img src="https://www.borcci.com:443/static/images/front/fix03.png" alt="">
+							</a>
+							<p>
+								<img src="/uploadFiles/uploadImgs/20190103/e73cf1326bfc4147a18ccb2c71acee22.jpg" alt="">
+							</p>
+						</li>
+						<li>
+							<a href="https://item.jd.com/40034019533.html" target="_blank">
+								<img src="https://www.borcci.com:443/static/images/front/fix04.png" alt="">
+							</a>
+							<p>
+								<img src="/uploadFiles/uploadImgs/20190103/5e22fff4c6f747479e8e6caef1e6ff28.jpg" alt="">
+							</p>
+						</li>
+		<li class="liuY"><a href="javascript:;"><img src="https://www.borcci.com:443/static/images/front/fix05.png" alt=""></a></li>
+		<li class="top"><a href="javascript:;"><img src="https://www.borcci.com:443/static/images/front/fix06.png" alt=""></a></li>
+	</ul>
+</div>
+<div class="liaoT">
+	<span>x</span>
+	<iframe src=""></iframe>
+</div>
+<style>
+.liuY{position: fixed;top:80%;right: 0px;margin-top: -22px;z-index: 999;width: 70px;height: 70px;}
+.liuY img{width: 100%;}
+.liaoT{z-index:999;width: 400px;height: 640px;position: fixed;bottom: 0px;right: 0px;display: none;}
+.liaoT>span{color:#fff;display: block;width: 30px;height: 30px;font-size: 20px;position: absolute;top: 10px;right: 10px;z-index: 999;text-align: center;line-height: 30px;cursor: pointer;}
+.liaoT iframe{width: 100%;height: 100%;}
+.touch_body .liaoT>span{color: #444;top:0;}
+@media only screen and (max-width: 767px){
+	.liuY{width: 50px;height: 50px;}
+	.liaoT{width: 100%;}
+	.touch_body .liaoT>span{right: 0px;left: auto;}
+}
+</style>
+<script type="text/javascript" src="https://www.borcci.com:443/static/js/front/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(document).on('click','.liuY',function(){
+		$('.liaoT').find('iframe').attr({
+			'src':'http://borcci.udesk.cn/im_client/?web_plugin_id=23677&language=zh-cn'
+		});
+		$('.liaoT').show();
+	});
+	$('.liaoT>span').click(function(){
+		$('.liaoT').hide();
+		$('.liaoT').find('iframe').attr({
+			'src':' '
+		});
+	});
+})
+</script>
+
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="https://www.borcci.com:443/static/js/front/jquery.js"></script>
+	<!-- 定义全局变量，以便复用  -->
+<div class="footer cf pt_75 pb_75">
+	<div class="wrap2 cf">
+		<div class="right cf">
+							<dl>
+								<dt>服务热线：</dt>
+								<dd class="fnt_34">4000-315-666</dd>
+							</dl>
+							<p>地址：浙江省宁波市杭州湾新区滨海六路28号</p>
+							<p>E-mail：FOTILE_borcci@borcci.com</p>
+							<p>邮政编码：315336</p>
+		</div>
+
+		<div class="middle cf">
+						<dl class="cf">
+							<dt class="fnt_20"><a href="https://www.borcci.com:443/channel/bb5a28fedb8d442fbe5e9720455db103.html">柏厨产品</a></dt>
+										<dd><p><a href="https://www.borcci.com:443/channel/4647624ae089474eac4641a898097bb5.html">产品中心</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/build/tosearchResult">集成家居</a></p></dd>
+						</dl>
+						<dl class="cf">
+							<dt class="fnt_20"><a href="https://www.borcci.com:443/channel/4439eb833ebe4bfca9c7f8348de90e6f.html">柏厨服务</a></dt>
+										<dd><p><a href="https://www.borcci.com:443/channel/c8bee1a04eef4cd0a5829cf7f79bf10f.html">专卖店查询</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/channel/9254a741bf7b4f1b812dd3bbeb272989.html">防伪查询</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/channel/9e7d56c0361f4035b597c2ce6fe18508.html">服务体系</a></p></dd>
+						</dl>
+						<dl class="cf">
+							<dt class="fnt_20"><a href="https://www.borcci.com:443/channel/d88480f3e53d44d792ddc703b8832b90.html">招商加盟</a></dt>
+										<dd><p><a href="https://www.borcci.com:443/channel/cd3723260c7d4ae28b6c1487e148d8d8.html">零售加盟</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/channel/8a1f8f18d66548ba93e5e27c6f0cc38c.html">工程合作</a></p></dd>
+						</dl>
+						<dl class="cf">
+							<dt class="fnt_20"><a href="https://www.borcci.com:443/channel/e90dd5823ea947caa9490ac152cc7da9.html">关于柏厨</a></dt>
+										<dd><p><a href="https://www.borcci.com:443/channel/a56015a4c45141c5800a6df4ac42dd90.html">人文柏厨</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/channel/974eea93466447c1bd834cbef25fab98.html">发展历程</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/channel/2685df68d7814d6185802e83e8fac330.html">荣誉资质</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/channel/08f8d84f384d4f25b9843ec6178a86c0.html">生产基地</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/channel/15f69fde817c447980385215dcfa27b5.html">社会责任</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/channel/e949161bc1bc430086e9f5f46557841e.html">加入柏厨</a></p></dd>
+										<dd><p><a href="https://www.borcci.com:443/channel/b35554b11dfd4b728b5295e79c6ddb18.html">新闻资讯</a></p></dd>
+						</dl>
+		</div>
+
+		
+
+		<div class="left cf">
+			<a href="https://www.borcci.com:443"><img src="/uploadFiles/uploadImgs/20180109/00d555f1334a4dbc8ca7bc9cd38b8d68.png" alt=""></a>
+			<ul class="cf mt_40">
+							<li class="ewm"><a href="https://weibo.com/borccikitchen" target="_blank"><img class="in" src="https://www.borcci.com:443/static/images/front/in_ico04f.png" alt=""><img class="ho" src="https://www.borcci.com:443/static/images/front/in_ico04.png" alt=""></a><p><img src="/uploadFiles/uploadImgs/20180228/e0e8b59b2c28436fad6f20e74633104e.png" alt=""></p></li>
+							<li class="ewm"><a href="javascript:;"><img class="in" src="https://www.borcci.com:443/static/images/front/in_ico05f.png" alt=""><img class="ho" src="https://www.borcci.com:443/static/images/front/in_ico05.png" alt=""></a><p><img src="/uploadFiles/uploadImgs/20180228/4c07171019f340ac9029e6ab57dd682d.jpg" alt=""></p></li>
+							<li class="ewm"><a href="https://shop108465992.taobao.com/?spm=2013.1.w14056443-21231607605.3.699255c1AnmShN" target="_blank"><img class="in" src="https://www.borcci.com:443/static/images/front/in_ico06f.png" alt=""><img class="ho" src="https://www.borcci.com:443/static/images/front/in_ico06.png" alt=""></a><p><img src="/uploadFiles/uploadImgs/20190103/e73cf1326bfc4147a18ccb2c71acee22.jpg" alt=""></p></li>
+							<li class="ewm"><a href="https://item.jd.com/40034019533.html" target="_blank"><img class="in" src="https://www.borcci.com:443/static/images/front/in_ico07f.png" alt=""><img class="ho" src="https://www.borcci.com:443/static/images/front/in_ico07.png" alt=""></a><p><img src="/uploadFiles/uploadImgs/20190103/5e22fff4c6f747479e8e6caef1e6ff28.jpg" alt=""></p></li>
+			</ul>
+			<div class="other_a cf mt_20">
+					<a href="https://www.borcci.com:443/channel/f21bd46cb9a84bdc8b6d699ac9567cc0.html">友情链接</a><i>|</i>
+				<a href="https://www.borcci.com:443/channel/230b1f1fc2dd41b790d536a25baac871.html">网站地图</a><i>|</i>
+				<a href="https://www.borcci.com:443/channel/8d77263351ea4caaaf157bd02485a05a.html">法律声明</a>
+			</div>
+			<div class="p cf mt_40">
+				<a href="http://www.beian.miit.gov.cn" ><p>浙ICP备14030646号-4</p>
+					<p>ALL Rights Res erved:Copyright2018 BCCHU</p></a>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=""https://www.googletagmanager.com/gtag/js?id=UA-118323090-1""></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118323090-1');
+</script>
+<script type="text/javascript">
+$(function(){
+	var selectId="a56015a4c45141c5800a6df4ac42dd90";
+	var selectColumId="a56015a4c45141c5800a6df4ac42dd90";
+	$('.n_left').find("a").each(function(){
+		var id=$(this).data('id');
+		if(id==selectId){
+			var parentId=$(this).parents('dd').eq(0).children('a').data('id');
+			if(parentId!=undefined&&parentId==selectColumId){
+				$(this).parents('dd').eq(0).addClass("dd_hover");
+				$(this).addClass("hover");
+			}else if(parentId!=undefined){
+				$(this).parents('dd').eq(0).addClass("dd_hover");
+				$(this).addClass("hover");
+			}
+		}
+	});
+});
+</script>
+<script type="text/javascript">
+$(function(){
+    $(".a_post").on("click",function(){
+        var url='';
+    	var isChannel=$(this).data('channel');
+    	var id=$(this).data('id');
+    	var type='';
+    	var typeId='';
+        if(isChannel=='0'){
+        	var columId=$(this).data('columid');
+        	url="https://www.borcci.com:443/channel/"+columId+".html";
+        	type=$(this).data('type');
+        	typeId=$(this).data('typeid');
+        }else if(isChannel=='1'){
+        	url="https://www.borcci.com:443/channel/"+id+".html";
+        }
+        doPost(url,{"isChannel":isChannel,"isSelect":"1","type":type,"typeId":typeId});
+	});
+});
+function doPost(to, p) {
+    var myForm = document.createElement("form");
+    myForm.method = "post";  
+    myForm.action = to;
+    for (var i in p){
+       var myInput = document.createElement("input");       
+       myInput.setAttribute("name", i);  //为input对象设置name  
+       myInput.setAttribute("value", p[i]);  //为input对象设置value
+       myForm.appendChild(myInput);  
+   }     
+   document.body.appendChild(myForm);     
+   myForm.submit();
+   document.body.removeChild(myForm); //提交后移除创建的form
+}
+</script><script type="text/javascript" src="https://www.borcci.com:443/static/js/front/jquery.js"></script>
+<script type="text/javascript" src="https://www.borcci.com:443/static/js/front/base.js"></script>
+<script type="text/javascript" src="https://www.borcci.com:443/static/js/front/index.js"></script>
+<script type="text/javascript" src="https://www.borcci.com:443/static/js/front/swfobject.js"></script>
+<script type="text/javascript" src="https://www.borcci.com:443/static/js/front/video_news.js"></script>
+</body>
+</html>          

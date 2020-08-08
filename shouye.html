@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/shouye.css"/>
+		
+	</head>
+	<body>
+		<div class="maxBox">
+			<div class="maxHeader">
+            <div class="header">
+            	<div class="left">
+            		<img src="img/00d555f1334a4dbc8ca7bc9cd38b8d68.png"/>
+            	</div>
+            	<ul class="right" >
+            		<li class="fo" v-for="item in list" @mouseenter="dong()">{{item}}</li>
+            		<li></li>
+            		<li></li>
+            	</ul>
+            	</div>
+            </div>
+          
+		</div>
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/vue-router.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			let ve=new Vue({
+				el:'.maxBox',
+				data:{
+					
+					list:[
+					'首页',
+					'铂厨产品',
+					'铂厨服务',
+					'招商加盟',
+					'关于铂厨',
+					'联系我们']
+					
+				},
+				methods:{
+					
+				},
+				beforeCreate(){
+					
+				},
+				created(){
+					
+					
+				},
+				beforMount(){
+					
+				},
+				mounted(){
+					
+				},
+				beforeUpdate(){
+					
+				},
+				updated(){
+					
+				},
+				beforeDestroy(){
+					
+				},
+				destroyed(){
+					
+				}
+				
+			})
+		</script>
+	</body>
+</html>

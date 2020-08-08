@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+.maxHeader{
+	width: 100%;
+	background-color: #000000;
+}
+.header{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	width: 1500px;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 auto;
+	background-color: #000000;
+}
+.right{
+	box-sizing: border-box;
+    margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.right>li{
+	height: 50px;
+	line-height: 50px;
+	margin: 0 10px;
+	
+}
+.fo:hover{
+	border-bottom: solid red 2px;
+}
+
